@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35506.116 d17.12
+VisualStudioVersion = 17.12.35506.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fantasy.Backend", "Fantasy.Backend\Fantasy.Backend.csproj", "{EC8A275B-E2FB-41FD-A935-E09FCDA8E484}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fantasy.Frontend", "Fantasy.Frontend\Fantasy.Frontend.csproj", "{D92163BB-5884-490C-B4D0-8ED599BE28CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fantasy.Shared", "Fantasy.Shared\Fantasy.Shared.csproj", "{4C79F2AD-D38B-483F-91DE-19B4081CC2FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fantasy.Tests", "Fantasy.Tests\Fantasy.Tests.csproj", "{5594A9A9-4DEF-41C4-AB3B-1B0ED179D1C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{D92163BB-5884-490C-B4D0-8ED599BE28CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D92163BB-5884-490C-B4D0-8ED599BE28CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D92163BB-5884-490C-B4D0-8ED599BE28CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C79F2AD-D38B-483F-91DE-19B4081CC2FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C79F2AD-D38B-483F-91DE-19B4081CC2FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C79F2AD-D38B-483F-91DE-19B4081CC2FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C79F2AD-D38B-483F-91DE-19B4081CC2FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5594A9A9-4DEF-41C4-AB3B-1B0ED179D1C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5594A9A9-4DEF-41C4-AB3B-1B0ED179D1C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5594A9A9-4DEF-41C4-AB3B-1B0ED179D1C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5594A9A9-4DEF-41C4-AB3B-1B0ED179D1C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
